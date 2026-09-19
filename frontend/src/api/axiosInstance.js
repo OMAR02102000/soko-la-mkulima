@@ -1,7 +1,7 @@
  import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://soko-la-mkulima-production.up.railway.app/api',
 });
 
 // Ongeza token kwa kila request endapo ipo
